@@ -42,7 +42,7 @@ function Readd_meta(){ ?>
 	<meta name="description" content="<?php echo $description; ?>" />
 	<meta name="keywords" content="<?php echo $keywords; ?>" />
 	<?php if( wp_is_mobile() ){?> <meta name="viewport" content="initial-scale=1.0,user-scalable=no" /> <?php }?>
-	<link rel="shortcut icon" type="images/x-icon" href="<?php bloginfo("template_url"); ?>/images/favicon.ico" />
+	<link rel="shortcut icon" type="images/x-icon" href="<?php bloginfo("template_url"); ?>/images/favicon.png" />
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'rss2_url' ); ?>" />
 	<link rel="alternate" type="application/atom+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'atom_url' ); ?>" />
 <?php
