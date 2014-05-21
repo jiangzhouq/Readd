@@ -241,14 +241,14 @@ p.recent-comments-content{margin:0;padding:0;padding-left:44px;}
 /*gallery
 ************************/
 .album{height:606px;text-align:center;}
-.album .thumb-wrap{width:548px;height:68px;padding:4px 25px;position:relative;overflow:hidden;}
-.album .thumb{white-space:nowrap;position:relative;z-index:2;margin:0;padding:0;text-align:left;height:68px;overflow:hidden;}
+.album .thumb-wrap{width:600px;height:68px;padding:4px 0px;position:relative;overflow:hidden;border-color:#c2374c; border-style:none none dotted none; border-width:1px;}
+.album .thumb{width:544px;white-space:nowrap;position:relative;z-index:2;margin-left:28px;padding:0;text-align:left;height:68px;overflow:hidden;}
 .album .thumb p{display:inline;margin:0;padding:0;}
-.album .thumb a{display:inline-block;margin:4px 2px 4px 4px ;padding:0;background:#000;}
-.album .thumb a img{width:60px;height:60px;margin:0;padding:0;border:0;}
-.album .thumb-left,.thumb-right{index:2px;width:23px;height:74px;cursor:pointer;border-color:rgba(0,0,0,0.1);border-width:1px;background:#fff;z-index:3;transition:all linear .3s;-webkit-transition:all linear .3s;-moz-transition:all linear .3s;-o-transition:all linear .3s;}
-.album .thumb-left{position:absolute;left:0;top:0;border-style:solid none solid solid;background:#fff url(images/thumb-nav-l.png) left center no-repeat;}
-.album .thumb-right{position:absolute;right:0;top:0;border-style:solid solid solid none;background:#fff url(images/thumb-nav-r.png) right center no-repeat;}
+.album .thumb a{display:inline-block;padding:0;}
+.album .thumb a img{width:60px;height:60px;margin:4px 4px;padding:0;border:0;}
+.album .thumb-left,.thumb-right{width:24px;height:74px;cursor:pointer;border-color:rgba(0,0,0,0.1);background:#fff;z-index:3;transition:all linear .3s;-webkit-transition:all linear .3s;-moz-transition:all linear .3s;-o-transition:all linear .3s;}
+.album .thumb-left{position:absolute;left:0;top:0;background:#fff url(images/thumb-nav-l.png) left center no-repeat;}
+.album .thumb-right{position:absolute;margin-left:4px;right:0;top:0;background:#fff url(images/thumb-nav-r.png) right center no-repeat;}
 .album .thumb-current{opacity:0.6;}
 .photo-wrap{margin:12px auto;min-height:72px;min-width:72px;padding:8px;text-align:center;position:relative;display:inline-block;}
 .photo-wrap img{max-height:500px;display:block;margin:auto;}

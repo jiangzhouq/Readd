@@ -101,19 +101,19 @@ function album(_this){
 	
 	//缩略图一些动画
 	_this_thump_left.click(function(){
-		thumb_left = 548+thumb_left;
+		thumb_left = 544+thumb_left;
 		if ( thumb_left <= 0 ) {
 			_this_thump.stop().animate({left:thumb_left},600);
 		}else{
-			thumb_left = -548+thumb_left;
+			thumb_left = -544+thumb_left;
 		}
 	});
 	_this_thump_right.click(function(){
-		thumb_left = -548+thumb_left;
+		thumb_left = -544+thumb_left;
 		if ( -thumb_left < thumb_width ) {
 			_this_thump.stop().animate({left:thumb_left},600);
 		}else{
-			thumb_left = 548+thumb_left;
+			thumb_left = 544+thumb_left;
 		}
 	});
 	
