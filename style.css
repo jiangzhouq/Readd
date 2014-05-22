@@ -241,7 +241,7 @@ p.recent-comments-content{margin:0;padding:0;padding-left:44px;}
 /*gallery
 ************************/
 .album{height:606px;text-align:center;}
-.album .thumb-wrap{width:600px;height:68px;padding:4px 0px;position:relative;overflow:hidden;border-color:#c2374c; border-style:none none dotted none; border-width:1px;}
+.album .thumb-wrap{width:600px;height:68px;padding:4px 0px;position:relative;overflow:hidden;border-color:#c2374c; border-style:none none solid none; border-width:1px;}
 .album .thumb{width:544px;white-space:nowrap;position:relative;z-index:2;margin-left:28px;padding:0;text-align:left;height:68px;overflow:hidden;}
 .album .thumb p{display:inline;margin:0;padding:0;}
 .album .thumb a{display:inline-block;padding:0;}
@@ -275,7 +275,27 @@ p.gallery-dex a{color:#6d6d6d;}
 .gallery-nav-quit{position:absolute;right:0;top:0;width:70px;height:70px;background:url(images/gallery.png) center -120px no-repeat;cursor:pointer;}
 
 
+/*postgallery
+************************/
+.postgallery2 {width:600px;}
+.postgallery2 a img{width:298px; height:298px;padding:0px;border:none;margin:1px;}
+.postgallery2 a img:hover{opacity:0.6}
 
+.postgallery3 {width:600px;}
+.postgallery3 a img{width:198px; height:198px;padding:0px;border:none;margin:1px;}
+.postgallery3 a img:hover{opacity:0.6}
+
+.postgallery4 {width:600px;}
+.postgallery4 a img{width:148px; height:148px;padding:0px;border:none;margin:1px;}
+.postgallery4 a img:hover{opacity:0.6}
+
+.postgallery5 {width:600px;}
+.postgallery5 a img{width:118px; height:118px;padding:0px;border:none;margin:1px;}
+.postgallery5 a img:hover{opacity:0.6}
+
+.postgallery6 {width:600px;}
+.postgallery6 a img{width:98px; height:98px;padding:0px;border:none;margin:1px;}
+.postgallery6 a img:hover{opacity:0.6}
 
 
 
